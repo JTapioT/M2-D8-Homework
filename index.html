@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>M2-D8</title>
+</head>
+
+<body>
+
+  <!-- NAV BAR -->
+
+  <nav class="navbar bg-primary sticky-top">
+    <div class="container justify-content-start align-items-baseline">
+      <a href="" class="navbar-brand text-white">Navbar</a>
+      <ul class="navbar-nav flex-row text-white">
+        <li class="nav-item">Home</li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!-- EXERCISE 1-->
+
+    <h2 class="text-center mt-5">Exercise 1</h2>
+
+    <div class="d-flex text-white mt-4 ex1-container">
+
+      <div class="flex-grow-1 d-flex justify-content-center align-items-center bg-success ex1-container-div1">
+        <p>First Column <br />Height 400px;<br />Green-ish background<br />Text Centered</p>
+      </div>
+
+      <div class="bg-primary d-flex align-items-end pl-2 pr-2 ex1-container-div2">
+        <p>
+          <strong>Second Column<br />Text to the bottom<br />Bold, blueish<br />background</strong>
+        </p>
+      </div>
+
+      <div class="d-flex flex-column flex-grow-1">
+        <div
+          class="d-flex align-items-center justify-content-center bg-yellow-accent-light h-100 ex1-container-div3-child1">
+          <p class="text-body">Third Column Part 1</p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center bg-yellow-accent h-100 ex1-container-div3-child2">
+          <p class="text-body">Third Column Part 2</p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center bg-warning h-100 ex1-container-div3-child3">
+          <p class="text-body">Third Column Part 3</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- EXERCISE 2-->
+    <h2 class="text-center mt-5">Exercise 2</h2>
+    <h5>Think later if there is some very very easy solution to create the gaps between row-columns than wrapping card
+      inside div and playing with padding etc.</h5>
+
+    <div class="row pr-3 pl-3">
+
+      <div class="col-4 pr-1 pl-0">
+        <div class="card">
+          <div class="card-header text-center">
+            Free
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">€0 <span class="text-muted">/ mo</span></h5>
+            <p class="card-text pl-2 pr-2 text-center">10 users included<br />2 GB of storage<br />Email
+              support<br />Help center access</p>
+            <a href="#" class="btn btn-primary w-100 mt-1">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 pl-1 pr-1">
+        <div class="card">
+          <div class="card-header text-center">
+            Pro
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">€15 <span class="text-muted">/ mo</span></h5>
+            <p class="card-text pl-2 pr-2 text-center">20 users included<br />10 GB of storage<br />Priority email
+              support<br />Help center access</p>
+            <a href="#" class="btn btn-primary w-100 mt-1">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 pl-1 pr-0">
+        <div class="card">
+          <div class="card-header text-center">
+            Enterprise
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">€0 <span class="text-muted">/ mo</span></h5>
+            <p class="card-text pl-2 pr-2 text-center">30 users included<br />15 GB of storage<br />Phone and email
+              support<br />Help center access</p>
+            <a href="#" class="btn btn-primary w-100 mt-1">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- EXERCISE 3-->
+
+    <h2 class="text-center mt-5">Exercise 3</h2>
+
+    <!-- OVERALL CONTAINER FOR ROW -->
+    <div class="bg-light w-100">
+
+      <div class="row pt-5 pl-2 pr-2">
+
+        <!-- CARD -->
+        <div class="d-flex flex-column col-4 pb-3" style="font-size: 0.9rem"">
+          <div class=" w-100 bg-secondary" style="height: 130px;">
+          <img src="" class="card-img-top" alt="">
+        </div>
+        <div class="d-flex flex-column card-body bg-white py-3 px-3">
+          <p class="card-text">Here you can place your video description, in order to inform the user of what to
+            expect
+            by
+            clicking on the link.</p>
+
+          <div class="d-flex justify-content-between">
+            <div class="border d-flex flex-row">
+              <div class="border-right">
+                <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">View</a>
+              </div>
+
+              <div>
+                <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">Edit</a>
+              </div>
+            </div>
+            <div class="d-flex align-items-end">
+              <p class="mb-0 py-1" style="font-size: 0.8rem">9 mins</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD -->
+      <div class="d-flex flex-column col-4 pb-3" style="font-size: 0.9rem"">
+          <div class=" w-100 bg-secondary" style="height: 130px;">
+        <img src="" class="card-img-top" alt="">
+      </div>
+      <div class="d-flex flex-column card-body bg-white py-3 px-3">
+        <p class="card-text">Here you can place your video description, in order to inform the user of what to
+          expect
+          by
+          clicking on the link.</p>
+
+        <div class="d-flex justify-content-between">
+          <div class="border d-flex flex-row">
+            <div class="border-right">
+              <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">View</a>
+            </div>
+
+            <div>
+              <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">Edit</a>
+            </div>
+          </div>
+          <div class="d-flex align-items-end">
+            <p class="mb-0 py-1" style="font-size: 0.8rem">9 mins</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD -->
+    <div class="d-flex flex-column col-4 pb-3" style="font-size: 0.9rem"">
+          <div class=" w-100 bg-secondary" style="height: 130px;">
+      <img src="" class="card-img-top" alt="">
+    </div>
+    <div class="d-flex flex-column card-body bg-white py-3 px-3">
+      <p class="card-text">Here you can place your video description, in order to inform the user of what to
+        expect
+        by
+        clicking on the link.</p>
+
+      <div class="d-flex justify-content-between">
+        <div class="border d-flex flex-row">
+          <div class="border-right">
+            <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">View</a>
+          </div>
+
+          <div>
+            <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">Edit</a>
+          </div>
+        </div>
+        <div class="d-flex align-items-end">
+          <p class="mb-0 py-1" style="font-size: 0.8rem">9 mins</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARD -->
+  <div class="d-flex flex-column col-4 pb-3" style="font-size: 0.9rem"">
+          <div class=" w-100 bg-secondary" style="height: 130px;">
+    <img src="" class="card-img-top" alt="">
+  </div>
+  <div class="d-flex flex-column card-body bg-white py-3 px-3">
+    <p class="card-text">Here you can place your video description, in order to inform the user of what to
+      expect
+      by
+      clicking on the link.</p>
+
+    <div class="d-flex justify-content-between">
+      <div class="border d-flex flex-row">
+        <div class="border-right">
+          <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">View</a>
+        </div>
+
+        <div>
+          <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">Edit</a>
+        </div>
+      </div>
+      <div class="d-flex align-items-end">
+        <p class="mb-0 py-1" style="font-size: 0.8rem">9 mins</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- CARD -->
+  <div class="d-flex flex-column col-4 pb-3" style="font-size: 0.9rem"">
+          <div class=" w-100 bg-secondary" style="height: 130px;">
+    <img src="" class="card-img-top" alt="">
+  </div>
+  <div class="d-flex flex-column card-body bg-white py-3 px-3">
+    <p class="card-text">Here you can place your video description, in order to inform the user of what to
+      expect
+      by
+      clicking on the link.</p>
+
+    <div class="d-flex justify-content-between">
+      <div class="border d-flex flex-row">
+        <div class="border-right">
+          <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">View</a>
+        </div>
+
+        <div>
+          <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">Edit</a>
+        </div>
+      </div>
+      <div class="d-flex align-items-end">
+        <p class="mb-0 py-1" style="font-size: 0.8rem">9 mins</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- CARD -->
+  <div class="d-flex flex-column col-4 pb-3" style="font-size: 0.9rem"">
+          <div class=" w-100 bg-secondary" style="height: 130px;">
+    <img src="" class="card-img-top" alt="">
+  </div>
+  <div class="d-flex flex-column card-body bg-white py-3 px-3">
+    <p class="card-text">Here you can place your video description, in order to inform the user of what to
+      expect
+      by
+      clicking on the link.</p>
+
+    <div class="d-flex justify-content-between">
+      <div class="border d-flex flex-row">
+        <div class="border-right">
+          <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">View</a>
+        </div>
+
+        <div>
+          <a href="" class="btn text-decoration-none m-0 px-1 py-1" style="font-size: 0.8rem">Edit</a>
+        </div>
+      </div>
+      <div class="d-flex align-items-end">
+        <p class="mb-0 py-1" style="font-size: 0.8rem">9 mins</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </div>
+  </div>
+
+  <!-- CARD -->
+
+  <!-- FIX LATER EXERCISE 3 HTML-->
+
+  <!-- EXERCISE 4-->
+
+  <h2 class="text-center mt-5">Exercise 4</h2>
+
+
+      <div class="d-flex">
+
+
+      <div class="blog-main d-flex flex-column mr-3">
+        <div class="d-flex mb-3 align-items-baseline">
+          <h3 class="mr-2">Page Heading</h3>
+          <h4 class="">Secondary Text</h4>
+        </div>
+
+          <!-- BLOG POSTS -->
+
+          <div class="card">
+            <img src="" class="card-img-top blog-img" alt="">
+
+            <div class="card-body d-flex flex-column align-items-start">
+              <h3 class="card-title">Post title</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam repellendus iste deleniti, ullam possimus enim! Ipsa necessitatibus esse voluptatem aliquam?</p>
+              <a href="#" class="btn btn-primary">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="pl-4 text-muted blog-author">
+              <p class="m-0 py-2">Posted on January 10, 2020 by <a href="">Admin</a></p>
+            </div>
+          </div>
+
+          <div class="card mt-4">
+            <img src="" class="card-img-top blog-img" alt="">
+
+            <div class="card-body d-flex flex-column align-items-start">
+              <h3 class="card-title">Post title</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam repellendus iste deleniti, ullam possimus enim! Ipsa necessitatibus esse voluptatem aliquam?</p>
+              <a href="#" class="btn btn-primary">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="pl-4 text-muted blog-author">
+              <p class="m-0 py-2">Posted on January 10, 2020 by <a href="">Admin</a></p>
+            </div>
+          </div>
+
+          <div class="card mt-4">
+            <img src="" class="card-img-top blog-img" alt="">
+
+            <div class="card-body d-flex flex-column align-items-start">
+              <h3 class="card-title">Post title</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam repellendus iste deleniti, ullam possimus enim! Ipsa necessitatibus esse voluptatem aliquam?</p>
+              <a href="#" class="btn btn-primary">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <div class="pl-4 text-muted blog-author">
+              <p class="m-0 py-2">Posted on January 10, 2020 by <a href="">Admin</a></p>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center mt-3">
+            <a href="#" class="btn btn-outline-secondary text-primary"><i class="bi bi-arrow-left text-primary"></i> Older</a>
+            <a href="#" class="btn btn-outline-secondary">Newer <i class="bi bi-arrow-right text-secondary"></i></a>
+          </div>
+
+
+      </div>
+
+
+
+      <!--Aside-->
+      <aside class="d-flex flex-column align-items-start">
+        
+        <div class="card w-100">
+          <div class="card-header">
+            Find in my blog
+          </div>
+          <div class="card-body">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Search for..."
+              aria-label="Recipient's username" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn bg-secondary text-white" type="button" id="button-addon2">Search!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-3">
+          <div class="card-header">
+            Categories
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <a class="col-6" href="">Web Design</a>
+              <a class="col-6" href="">Javascript</a>
+              <a class="col-6" href="">HTML</a>
+              <a class="col-6" href="">SASS</a>
+              <a class="col-6" href="">CSS</a>
+              <a class="col-6" href="">Bootstrap 4</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-3 w-100">
+          <div class="card-header">
+            Widgets
+          </div>
+          <div class="card-body">
+            <p>Usually here you can put all your custom widget to enhance the user experience.</p>
+          </div>
+        </div>
+      </aside>
+
+      
+    </div>
+
+  <!-- EXERCISE 5-->
+  <h2 class="text-center mt-5">Exercise 5</h2>
+  <footer class="mt-5 border-top border-secondary">
+    <div class="d-flex justify-content-around mt-4">
+
+      <div class="d-flex flex-column">
+        <h5>Features</h5>
+        <a class="text-decoration-none text-muted" href="">Cool stuff</a>
+        <a class="text-decoration-none text-muted" href="">Random feature</a>
+        <a class="text-decoration-none text-muted" href="">Team feature</a>
+        <a class="text-decoration-none text-muted" href="">Stuff for developers</a>
+      </div>
+
+      <div class="d-flex flex-column">
+        <h5>Resources</h5>
+        <a class="text-decoration-none text-muted" href="">Resource</a>
+        <a class="text-decoration-none text-muted" href="">Resource name</a>
+        <a class="text-decoration-none text-muted" href="">Another resource</a>
+        <a class="text-decoration-none text-muted" href="">Final resource</a>
+      </div>
+
+      <div class="d-flex flex-column">
+        <h5>About</h5>
+        <a class="text-decoration-none text-muted" href="">Team</a>
+        <a class="text-decoration-none text-muted" href="">Locations</a>
+        <a class="text-decoration-none text-muted" href="">Privacy</a>
+        <a class="text-decoration-none text-muted" href="">Terms</a>
+      </div>
+
+    </div>
+  </footer>
+  
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
